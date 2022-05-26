@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>wangpengyu</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: #f1f1f1;
+        }
+        /* 头部标题 */
+        
+        .header {
+            padding: 30px;
+            text-align: center;
+            background: white;
+        }
+        
+        .header h1 {
+            font-size: 50px;
+        }
+        /* 导航条 */
+        
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+        /* 导航条链接 */
+        
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        /* 链接颜色修改 */
+        
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        /* 创建两列 */
+        
+        Left column .leftcolumn {
+            float: left;
+            width: 100%;
+        }
+        /* 右侧栏 */
+        
+        .rightcolumn {
+            float: left;
+            width: 98%;
+            background-color: #f1f1f1;
+            padding-left: 20px;
+        }
+        /* 图像部分 */
+        
+        .fakeimg {
+            background-color: rgb(254, 254, 254);
+            width: 100%;
+            padding: 20px;
+        }
+        /* 文章卡片效果 */
+        
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        /* 列后面清除浮动 */
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /*图片圆角边 */
+        
+        .img5 {
+            border-radius: 20px;
+        }
+        /* 底部 */
+        /*.footer {
+            padding: 500px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+        }*/
+        /* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+        
+        @media screen and (max-width: 800px) {
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+        /* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+        
+        @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Hello</h1>
+        <p>海内存知己，天涯若比邻</p>
+    </div>
+
+    <div class="topnav">
+        <a href=01.html>QQ</a>
+        <a href="https://github.com/Wangpengyu01 ">GItHub</a>
+    </div>
+
+    <div class="row ">
+        <div class="leftcolumn ">
+            <div class="card ">
+                <h1 align="center">
+                    Pengyu Wang</h1>
+                <div class="fakeimg " style="height: 200px " align="center">
+                    <img src="image/1.jpg " width="180 " height="180 " />
+                </div>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="card ">
+                <h2 align="center">个人描述</h2>
+                <h5></h5>
+                <div class="fakeimg " style="height: 220px " align="center">
+                    <img src="image/5.jpg " width="391 " height="180 " class="img5 " />
+                </div>
+                <p align="center">从2016年开始学习python Java前端
+                    <br>及少量后端HTML css js vue 前端架构和一些
+                    <br>企业前端配置和后台前端管理</p>
+                <p>
+
+                </p>
+            </div>
+        </div>
+        <div class="rightcolumn ">
+            <div class="card ">
+                <h2 align="center">关于我</h2>
+                <div class="fakeimg " style="height: 100px " align="center"><img src="image/2.jpg " width="110 " height="110 " calss="img5 " />
+                </div>
+                <p></p>
+            </div>
+            <div class="card ">
+                <h1 align="center">Linux</Link:css>
+                </h1>
+                <div class="fakeimg " align="center">
+                    <p><img src="image/header-1.jpg " width="260 " height=" " class="img5 " /></p>
+                </div>
+                <div class="fakeimg " align="center">
+                    <p><img src="image/hear-0.jpg " width="260 " height=" " class="img5 " /></p>
+                </div>
+                <div class="fakeimg " align="center">
+
+                    <p><img src="image/download.jpg " width="260 " height=" " class="img5 " /></p>
+                </div>
+
+                <div class="card ">
+                    <h3 align="center">关注我</h3>
+                    <p align="center">开源世界如此美好基础的知识千篇一律可靠的架构万里挑一</p>
+                </div>
+                <div>
+                    <h3 align="center">代码已开源
+                    </h3>
+
+                </div>
+            </div>
+
+
+
+
+</body>
+
+</html>
